@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://itcastwsy.github.io/pub-blog/sitemap.xml
+
+# Disallow admin/private areas if any
+Disallow: /assets/
+Disallow: /hashmap.json
