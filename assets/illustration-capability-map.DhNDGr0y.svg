@@ -1,0 +1,47 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="28" fill="#F8FAFC"/>
+  <text x="72" y="82" fill="#0F172A" font-family="Arial, sans-serif" font-size="34" font-weight="700">Claude Code 能力地图</text>
+  <text x="72" y="120" fill="#475569" font-family="Arial, sans-serif" font-size="20">记忆、流程、工具、自动化和团队协作各有边界</text>
+
+  <circle cx="600" cy="365" r="92" fill="#4F46E5"/>
+  <text x="600" y="356" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Claude</text>
+  <text x="600" y="392" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="28" font-weight="700">Code</text>
+
+  <g font-family="Arial, sans-serif">
+    <rect x="95" y="185" width="230" height="104" rx="18" fill="#E0F2FE" stroke="#38BDF8" stroke-width="2"/>
+    <text x="210" y="228" text-anchor="middle" fill="#075985" font-size="24" font-weight="700">CLAUDE.md</text>
+    <text x="210" y="260" text-anchor="middle" fill="#0C4A6E" font-size="18">项目记忆</text>
+
+    <rect x="95" y="410" width="230" height="104" rx="18" fill="#DCFCE7" stroke="#22C55E" stroke-width="2"/>
+    <text x="210" y="453" text-anchor="middle" fill="#166534" font-size="24" font-weight="700">Skill</text>
+    <text x="210" y="485" text-anchor="middle" fill="#14532D" font-size="18">固定流程</text>
+
+    <rect x="390" y="545" width="230" height="104" rx="18" fill="#FEF3C7" stroke="#F59E0B" stroke-width="2"/>
+    <text x="505" y="588" text-anchor="middle" fill="#92400E" font-size="24" font-weight="700">MCP</text>
+    <text x="505" y="620" text-anchor="middle" fill="#78350F" font-size="18">连接外部工具</text>
+
+    <rect x="680" y="545" width="230" height="104" rx="18" fill="#FCE7F3" stroke="#EC4899" stroke-width="2"/>
+    <text x="795" y="588" text-anchor="middle" fill="#9D174D" font-size="24" font-weight="700">Hooks</text>
+    <text x="795" y="620" text-anchor="middle" fill="#831843" font-size="18">自动触发器</text>
+
+    <rect x="875" y="410" width="230" height="104" rx="18" fill="#F3E8FF" stroke="#A855F7" stroke-width="2"/>
+    <text x="990" y="453" text-anchor="middle" fill="#6B21A8" font-size="24" font-weight="700">subAgents</text>
+    <text x="990" y="485" text-anchor="middle" fill="#581C87" font-size="18">并行分工</text>
+
+    <rect x="875" y="185" width="230" height="104" rx="18" fill="#FFEDD5" stroke="#F97316" stroke-width="2"/>
+    <text x="990" y="228" text-anchor="middle" fill="#9A3412" font-size="24" font-weight="700">Plugins</text>
+    <text x="990" y="260" text-anchor="middle" fill="#7C2D12" font-size="18">能力打包共享</text>
+
+    <rect x="390" y="80" width="420" height="86" rx="18" fill="#EEF2FF" stroke="#818CF8" stroke-width="2"/>
+    <text x="600" y="116" text-anchor="middle" fill="#3730A3" font-size="24" font-weight="700">Command</text>
+    <text x="600" y="146" text-anchor="middle" fill="#312E81" font-size="18">用 `/xxx` 快速触发能力</text>
+  </g>
+
+  <path d="M325 237C420 250 478 292 526 326" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M325 462C420 447 478 413 526 386" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M505 545C525 500 550 460 575 434" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M795 545C774 500 750 460 625 434" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M875 462C780 447 722 413 674 386" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M875 237C780 250 722 292 674 326" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+  <path d="M600 166V273" stroke="#94A3B8" stroke-width="3" stroke-linecap="round"/>
+</svg>

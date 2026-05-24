@@ -1,0 +1,50 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="28" fill="#F8FAFC"/>
+  <text x="72" y="86" fill="#0F172A" font-family="Arial, sans-serif" font-size="34" font-weight="700">常用斜杠命令工作流</text>
+  <text x="72" y="124" fill="#475569" font-family="Arial, sans-serif" font-size="20">不用死记全部命令，按阶段记住入口即可</text>
+
+  <g>
+    <rect x="74" y="190" width="230" height="260" rx="22" fill="#ECFEFF" stroke="#06B6D4" stroke-width="2"/>
+    <circle cx="116" cy="232" r="24" fill="#06B6D4"/>
+    <text x="116" y="241" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">1</text>
+    <text x="144" y="240" fill="#155E75" font-family="Arial, sans-serif" font-size="24" font-weight="700">进项目</text>
+    <text x="104" y="304" fill="#164E63" font-family="Arial, sans-serif" font-size="22">/init</text>
+    <text x="104" y="350" fill="#164E63" font-family="Arial, sans-serif" font-size="22">/memory</text>
+    <text x="104" y="396" fill="#164E63" font-family="Arial, sans-serif" font-size="22">/permissions</text>
+  </g>
+
+  <g>
+    <rect x="354" y="190" width="230" height="260" rx="22" fill="#EEF2FF" stroke="#6366F1" stroke-width="2"/>
+    <circle cx="396" cy="232" r="24" fill="#6366F1"/>
+    <text x="396" y="241" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">2</text>
+    <text x="424" y="240" fill="#3730A3" font-family="Arial, sans-serif" font-size="24" font-weight="700">做任务</text>
+    <text x="384" y="304" fill="#312E81" font-family="Arial, sans-serif" font-size="22">/model</text>
+    <text x="384" y="350" fill="#312E81" font-family="Arial, sans-serif" font-size="22">/compact</text>
+    <text x="384" y="396" fill="#312E81" font-family="Arial, sans-serif" font-size="22">/goal</text>
+  </g>
+
+  <g>
+    <rect x="634" y="190" width="230" height="260" rx="22" fill="#F0FDF4" stroke="#22C55E" stroke-width="2"/>
+    <circle cx="676" cy="232" r="24" fill="#22C55E"/>
+    <text x="676" y="241" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">3</text>
+    <text x="704" y="240" fill="#166534" font-family="Arial, sans-serif" font-size="24" font-weight="700">检查</text>
+    <text x="664" y="304" fill="#14532D" font-family="Arial, sans-serif" font-size="22">/diff</text>
+    <text x="664" y="350" fill="#14532D" font-family="Arial, sans-serif" font-size="22">/code-review</text>
+    <text x="664" y="396" fill="#14532D" font-family="Arial, sans-serif" font-size="22">/security-review</text>
+  </g>
+
+  <g>
+    <rect x="914" y="190" width="230" height="260" rx="22" fill="#FFF7ED" stroke="#F97316" stroke-width="2"/>
+    <circle cx="956" cy="232" r="24" fill="#F97316"/>
+    <text x="956" y="241" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">4</text>
+    <text x="984" y="240" fill="#9A3412" font-family="Arial, sans-serif" font-size="24" font-weight="700">扩展</text>
+    <text x="944" y="304" fill="#7C2D12" font-family="Arial, sans-serif" font-size="22">/mcp</text>
+    <text x="944" y="350" fill="#7C2D12" font-family="Arial, sans-serif" font-size="22">/agents</text>
+    <text x="944" y="396" fill="#7C2D12" font-family="Arial, sans-serif" font-size="22">/plugin</text>
+  </g>
+
+  <path d="M304 320H354" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M584 320H634" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M864 320H914" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <text x="600" y="540" text-anchor="middle" fill="#334155" font-family="Arial, sans-serif" font-size="22">先用 `/` 找命令，再把高频流程沉淀成 Skill 或 Command</text>
+</svg>

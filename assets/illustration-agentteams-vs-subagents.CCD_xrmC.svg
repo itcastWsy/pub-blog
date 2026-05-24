@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="28" fill="#F8FAFC"/>
+  <text x="72" y="86" fill="#0F172A" font-family="Arial, sans-serif" font-size="34" font-weight="700">subAgents 和 AgentTeams 的区别</text>
+  <text x="72" y="124" fill="#475569" font-family="Arial, sans-serif" font-size="20">一个是主 Agent 派分身，一个是多个 Claude Code 会话组成团队</text>
+
+  <rect x="72" y="180" width="500" height="360" rx="24" fill="#EEF2FF" stroke="#818CF8" stroke-width="2"/>
+  <text x="322" y="230" text-anchor="middle" fill="#3730A3" font-family="Arial, sans-serif" font-size="28" font-weight="700">subAgents</text>
+  <circle cx="322" cy="302" r="48" fill="#4F46E5"/>
+  <text x="322" y="313" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">主</text>
+  <circle cx="190" cy="420" r="38" fill="#A5B4FC"/>
+  <circle cx="322" cy="420" r="38" fill="#A5B4FC"/>
+  <circle cx="454" cy="420" r="38" fill="#A5B4FC"/>
+  <text x="190" y="428" text-anchor="middle" fill="#312E81" font-family="Arial, sans-serif" font-size="18" font-weight="700">安全</text>
+  <text x="322" y="428" text-anchor="middle" fill="#312E81" font-family="Arial, sans-serif" font-size="18" font-weight="700">测试</text>
+  <text x="454" y="428" text-anchor="middle" fill="#312E81" font-family="Arial, sans-serif" font-size="18" font-weight="700">性能</text>
+  <path d="M294 340L210 392" stroke="#6366F1" stroke-width="3"/>
+  <path d="M322 350V382" stroke="#6366F1" stroke-width="3"/>
+  <path d="M350 340L434 392" stroke="#6366F1" stroke-width="3"/>
+  <text x="322" y="500" text-anchor="middle" fill="#312E81" font-family="Arial, sans-serif" font-size="20">主 Agent 分配任务，子代理汇报结果</text>
+
+  <rect x="628" y="180" width="500" height="360" rx="24" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="878" y="230" text-anchor="middle" fill="#047857" font-family="Arial, sans-serif" font-size="28" font-weight="700">AgentTeams</text>
+  <circle cx="878" cy="302" r="48" fill="#059669"/>
+  <text x="878" y="313" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">Lead</text>
+  <rect x="700" y="390" width="116" height="58" rx="16" fill="#BBF7D0"/>
+  <rect x="820" y="462" width="116" height="58" rx="16" fill="#BBF7D0"/>
+  <rect x="940" y="390" width="116" height="58" rx="16" fill="#BBF7D0"/>
+  <text x="758" y="426" text-anchor="middle" fill="#065F46" font-family="Arial, sans-serif" font-size="18" font-weight="700">前端</text>
+  <text x="878" y="498" text-anchor="middle" fill="#065F46" font-family="Arial, sans-serif" font-size="18" font-weight="700">后端</text>
+  <text x="998" y="426" text-anchor="middle" fill="#065F46" font-family="Arial, sans-serif" font-size="18" font-weight="700">测试</text>
+  <path d="M850 340L780 390" stroke="#10B981" stroke-width="3"/>
+  <path d="M878 350V462" stroke="#10B981" stroke-width="3"/>
+  <path d="M906 340L976 390" stroke="#10B981" stroke-width="3"/>
+  <path d="M816 419H940" stroke="#10B981" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="M806 448L830 462" stroke="#10B981" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="M950 448L926 462" stroke="#10B981" stroke-width="3" stroke-dasharray="8 8"/>
+  <text x="878" y="558" text-anchor="middle" fill="#065F46" font-family="Arial, sans-serif" font-size="20">多个会话协作，有共享任务和相互沟通</text>
+</svg>

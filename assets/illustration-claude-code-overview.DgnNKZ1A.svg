@@ -1,0 +1,36 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" rx="28" fill="#F7FAFC"/>
+  <rect x="58" y="54" width="1084" height="522" rx="24" fill="#FFFFFF" stroke="#D9E2EC" stroke-width="2"/>
+  <text x="92" y="112" fill="#102A43" font-family="Arial, sans-serif" font-size="34" font-weight="700">Claude Code 是开发工作台</text>
+  <text x="92" y="152" fill="#52616B" font-family="Arial, sans-serif" font-size="20">把对话、代码库、终端命令、外部工具和多模型接入放到同一个工作流里</text>
+
+  <rect x="96" y="218" width="220" height="154" rx="18" fill="#E0F2FE" stroke="#38BDF8" stroke-width="2"/>
+  <text x="206" y="272" text-anchor="middle" fill="#075985" font-family="Arial, sans-serif" font-size="26" font-weight="700">终端</text>
+  <text x="206" y="314" text-anchor="middle" fill="#0F4C81" font-family="Arial, sans-serif" font-size="18">随处启动</text>
+  <text x="206" y="344" text-anchor="middle" fill="#0F4C81" font-family="Arial, sans-serif" font-size="18">适合自动化</text>
+
+  <rect x="368" y="202" width="246" height="186" rx="22" fill="#EEF2FF" stroke="#818CF8" stroke-width="2"/>
+  <circle cx="491" cy="272" r="46" fill="#4F46E5"/>
+  <text x="491" y="282" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="36" font-weight="700">AI</text>
+  <text x="491" y="342" text-anchor="middle" fill="#312E81" font-family="Arial, sans-serif" font-size="24" font-weight="700">Claude Code</text>
+
+  <rect x="666" y="218" width="220" height="154" rx="18" fill="#ECFDF5" stroke="#34D399" stroke-width="2"/>
+  <text x="776" y="272" text-anchor="middle" fill="#047857" font-family="Arial, sans-serif" font-size="26" font-weight="700">代码库</text>
+  <text x="776" y="314" text-anchor="middle" fill="#065F46" font-family="Arial, sans-serif" font-size="18">读文件</text>
+  <text x="776" y="344" text-anchor="middle" fill="#065F46" font-family="Arial, sans-serif" font-size="18">改代码</text>
+
+  <rect x="938" y="218" width="170" height="154" rx="18" fill="#FFF7ED" stroke="#FB923C" stroke-width="2"/>
+  <text x="1023" y="272" text-anchor="middle" fill="#C2410C" font-family="Arial, sans-serif" font-size="26" font-weight="700">工具</text>
+  <text x="1023" y="314" text-anchor="middle" fill="#9A3412" font-family="Arial, sans-serif" font-size="18">MCP</text>
+  <text x="1023" y="344" text-anchor="middle" fill="#9A3412" font-family="Arial, sans-serif" font-size="18">Hooks</text>
+
+  <path d="M316 295H368" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M614 295H666" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M886 295H938" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M354 280L368 295L354 310" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M652 280L666 295L652 310" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M924 280L938 295L924 310" stroke="#94A3B8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="154" y="448" width="892" height="58" rx="14" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <text x="600" y="485" text-anchor="middle" fill="#334155" font-family="Arial, sans-serif" font-size="20">自然语言需求 → 理解项目 → 调用工具 → 修改和验证结果</text>
+</svg>
