@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">MiMo 降价窗口：反复试错成本下降</title>
+  <desc id="desc">信息图展示 MiMo-V2.5 最高降价 99%、Token Plan 额度提升 5 到 8 倍、TTS 限时免费。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="58%" stop-color="#eef6ff"/>
+      <stop offset="100%" stop-color="#fff7ed"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" x2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" x2="1">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#facc15"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <style>
+      .title { font: 800 38px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #0f172a; }
+      .sub { font: 400 18px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #475569; }
+      .num { font: 800 54px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #111827; }
+      .card-title { font: 700 22px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #334155; }
+      .card-sub { font: 400 15px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #64748b; }
+      .tag { font: 700 13px "Microsoft YaHei", "PingFang SC", Arial, sans-serif; fill: #ffffff; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" rx="30" fill="url(#bg)"/>
+  <text x="70" y="76" class="title">MiMo 降价窗口：反复试错成本下降</text>
+  <text x="70" y="112" class="sub">对创作者来说，价值不只是“问答更便宜”，而是脚本、配音、字幕可以多版本迭代。</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="170" width="300" height="210" rx="24" fill="#ffffff" stroke="#dbeafe"/>
+    <rect x="98" y="142" width="96" height="32" rx="16" fill="url(#blue)"/>
+    <text x="121" y="164" class="tag">降价</text>
+    <text x="110" y="250" class="num">99%</text>
+    <text x="110" y="296" class="card-title">最高降幅</text>
+    <text x="110" y="330" class="card-sub">更适合批量生成和筛选方案</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="450" y="170" width="300" height="210" rx="24" fill="#ffffff" stroke="#dbeafe"/>
+    <rect x="478" y="142" width="120" height="32" rx="16" fill="url(#blue)"/>
+    <text x="501" y="164" class="tag">额度</text>
+    <text x="490" y="250" class="num">5-8x</text>
+    <text x="490" y="296" class="card-title">Token Plan 提升</text>
+    <text x="490" y="330" class="card-sub">有效期内已用 Credits 重置</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="830" y="170" width="300" height="210" rx="24" fill="#ffffff" stroke="#fed7aa"/>
+    <rect x="858" y="142" width="120" height="32" rx="16" fill="url(#orange)"/>
+    <text x="881" y="164" class="tag">声音</text>
+    <text x="870" y="250" class="num">Free</text>
+    <text x="870" y="296" class="card-title">TTS 限时免费</text>
+    <text x="870" y="330" class="card-sub">旁白、音色、字幕链路更顺</text>
+  </g>
+
+  <path d="M130 438 H1070" stroke="#cbd5e1" stroke-width="3" stroke-linecap="round"/>
+  <path d="M150 438 C270 388 360 420 470 350 S690 276 822 302 S990 250 1060 205" fill="none" stroke="#f97316" stroke-width="6" stroke-linecap="round"/>
+  <text x="430" y="472" class="sub">成本曲线往下，内容迭代次数才能往上。</text>
+</svg>
