@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "include": "/*",
+      "status": 200,
+      "headers": {
+        "X-Frame-Options": "DENY",
+        "X-Content-Type-Options": "nosniff"
+      }
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "**",
+      "destination": "/index.html"
+    }
+  ]
+}
