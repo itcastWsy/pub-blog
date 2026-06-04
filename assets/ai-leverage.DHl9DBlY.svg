@@ -1,0 +1,35 @@
+<svg width="900" height="420" viewBox="0 0 900 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI 杠杆放大人才能力</title>
+  <desc id="desc">一个高能力人才通过 AI 杠杆，把想法、分析、方案和交付连接成更快的工作流。</desc>
+  <rect width="900" height="420" fill="#F8FAFC"/>
+  <rect x="70" y="72" width="760" height="276" rx="22" fill="#FFFFFF" stroke="#D8E0EC"/>
+  <text x="450" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#172554">AI 不是替代强者，而是放大强者</text>
+  <text x="450" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#64748B">高密度人才 + AI 工作流 = 更快的判断与交付</text>
+
+  <circle cx="188" cy="238" r="52" fill="#DBEAFE" stroke="#2563EB" stroke-width="4"/>
+  <circle cx="188" cy="216" r="17" fill="#1D4ED8"/>
+  <path d="M155 269C162 248 214 248 221 269" stroke="#1D4ED8" stroke-width="12" stroke-linecap="round"/>
+  <text x="188" y="318" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1E3A8A">人才</text>
+
+  <path d="M270 238H362" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M350 220L372 238L350 256" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="382" y="180" width="136" height="116" rx="20" fill="#EEF2FF" stroke="#4F46E5" stroke-width="4"/>
+  <text x="450" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#3730A3">AI</text>
+  <text x="450" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#4F46E5">杠杆</text>
+
+  <path d="M538 238H630" stroke="#94A3B8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M618 220L640 238L618 256" stroke="#94A3B8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g>
+    <rect x="654" y="166" width="108" height="42" rx="10" fill="#DCFCE7" stroke="#22C55E" stroke-width="3"/>
+    <rect x="654" y="222" width="108" height="42" rx="10" fill="#FEF3C7" stroke="#F59E0B" stroke-width="3"/>
+    <rect x="654" y="278" width="108" height="42" rx="10" fill="#FFE4E6" stroke="#F43F5E" stroke-width="3"/>
+    <text x="708" y="193" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#166534">分析</text>
+    <text x="708" y="249" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#92400E">方案</text>
+    <text x="708" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#9F1239">交付</text>
+  </g>
+
+  <path d="M632 184C590 146 526 144 486 174" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-dasharray="8 10"/>
+  <path d="M493 154L485 174L507 172" stroke="#2563EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
