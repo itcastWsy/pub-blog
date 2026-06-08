@@ -1,0 +1,44 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">原型多轮反馈打磨闭环</title>
+  <desc id="desc">展示预览、指出问题、生成修改、再次预览的持续迭代过程。</desc>
+  <defs>
+    <linearGradient id="panel" x1="180" y1="70" x2="1020" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2L12 7L2 12" stroke="#0F172A" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#0F172A" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="560" rx="34" fill="#F8FAFC"/>
+  <rect x="130" y="70" width="940" height="420" rx="34" fill="url(#panel)" filter="url(#shadow)"/>
+  <circle cx="600" cy="280" r="126" fill="#EEF2FF"/>
+  <path d="M544 214H656C680 214 700 234 700 258V330C700 354 680 374 656 374H544C520 374 500 354 500 330V258C500 234 520 214 544 214Z" fill="white" stroke="#6366F1" stroke-width="8"/>
+  <path d="M532 260H668" stroke="#94A3B8" stroke-width="9" stroke-linecap="round"/>
+  <path d="M532 292H638" stroke="#94A3B8" stroke-width="9" stroke-linecap="round"/>
+  <path d="M532 324H618" stroke="#94A3B8" stroke-width="9" stroke-linecap="round"/>
+  <g font-family="Inter, 'Microsoft YaHei', Arial, sans-serif">
+    <rect x="226" y="112" width="230" height="106" rx="24" fill="#E0F2FE"/>
+    <text x="341" y="157" text-anchor="middle" fill="#075985" font-size="24" font-weight="800">预览页面</text>
+    <text x="341" y="190" text-anchor="middle" fill="#0C4A6E" font-size="17">先看真实效果</text>
+    <rect x="744" y="112" width="230" height="106" rx="24" fill="#FEF3C7"/>
+    <text x="859" y="157" text-anchor="middle" fill="#92400E" font-size="24" font-weight="800">指出问题</text>
+    <text x="859" y="190" text-anchor="middle" fill="#78350F" font-size="17">描述不满意的点</text>
+    <rect x="744" y="342" width="230" height="106" rx="24" fill="#DCFCE7"/>
+    <text x="859" y="387" text-anchor="middle" fill="#166534" font-size="24" font-weight="800">生成修改</text>
+    <text x="859" y="420" text-anchor="middle" fill="#14532D" font-size="17">让页面更接近需求</text>
+    <rect x="226" y="342" width="230" height="106" rx="24" fill="#FCE7F3"/>
+    <text x="341" y="387" text-anchor="middle" fill="#9D174D" font-size="24" font-weight="800">继续判断</text>
+    <text x="341" y="420" text-anchor="middle" fill="#831843" font-size="17">保留、调整或重做</text>
+  </g>
+  <g stroke="#0F172A" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M466 164C545 126 655 126 734 164"/>
+    <path d="M860 228C896 266 896 306 860 334"/>
+    <path d="M734 396C655 434 545 434 466 396"/>
+    <path d="M340 334C304 306 304 266 340 228"/>
+  </g>
+  <text x="600" y="520" text-anchor="middle" fill="#334155" font-family="Inter, 'Microsoft YaHei', Arial, sans-serif" font-size="22" font-weight="700">第一版不完美没关系，关键是已经有了可以修改的基础版本</text>
+</svg>

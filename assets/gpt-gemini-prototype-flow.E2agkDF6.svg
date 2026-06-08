@@ -1,0 +1,43 @@
+<svg width="1200" height="500" viewBox="0 0 1200 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GPT 与 Gemini 打磨产品原型流程</title>
+  <desc id="desc">从产品想法到 GPT 原型图，再到 Gemini HTML 和多轮修改的流程。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="14" markerHeight="14" refX="12" refY="7" orient="auto" markerUnits="strokeWidth">
+      <path d="M2 2L12 7L2 12" stroke="#334155" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.13"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="500" rx="34" fill="#F8FAFC"/>
+  <path d="M74 410C220 292 325 428 456 320C570 226 666 245 778 152C894 56 1018 88 1124 160" stroke="#DBEAFE" stroke-width="44" stroke-linecap="round"/>
+  <g font-family="Inter, 'Microsoft YaHei', Arial, sans-serif" filter="url(#shadow)">
+    <rect x="86" y="148" width="190" height="190" rx="28" fill="white"/>
+    <rect x="126" y="188" width="110" height="78" rx="18" fill="#FFEFD5"/>
+    <path d="M144 226H218" stroke="#F59E0B" stroke-width="8" stroke-linecap="round"/>
+    <path d="M144 248H194" stroke="#F59E0B" stroke-width="8" stroke-linecap="round"/>
+    <text x="181" y="304" text-anchor="middle" fill="#0F172A" font-size="24" font-weight="700">产品想法</text>
+    <rect x="334" y="148" width="190" height="190" rx="28" fill="white"/>
+    <rect x="372" y="184" width="114" height="88" rx="18" fill="#DBEAFE"/>
+    <circle cx="404" cy="215" r="12" fill="#2563EB"/>
+    <rect x="424" y="205" width="42" height="10" rx="5" fill="#60A5FA"/>
+    <rect x="390" y="242" width="78" height="10" rx="5" fill="#60A5FA"/>
+    <text x="429" y="304" text-anchor="middle" fill="#0F172A" font-size="24" font-weight="700">GPT 出图</text>
+    <rect x="582" y="148" width="190" height="190" rx="28" fill="white"/>
+    <rect x="620" y="184" width="114" height="88" rx="14" fill="#D1FAE5"/>
+    <path d="M641 214L622 228L641 242" stroke="#059669" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M713 214L732 228L713 242" stroke="#059669" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M687 206L668 250" stroke="#10B981" stroke-width="8" stroke-linecap="round"/>
+    <text x="677" y="304" text-anchor="middle" fill="#0F172A" font-size="24" font-weight="700">Gemini 转 HTML</text>
+    <rect x="830" y="148" width="190" height="190" rx="28" fill="white"/>
+    <path d="M884 226C884 200 905 180 931 180C957 180 978 200 978 226C978 252 957 272 931 272" stroke="#7C3AED" stroke-width="12" stroke-linecap="round"/>
+    <path d="M906 266L931 288L956 266" stroke="#7C3AED" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="925" y="304" text-anchor="middle" fill="#0F172A" font-size="24" font-weight="700">对话打磨</text>
+  </g>
+  <g stroke="#334155" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M286 243H322"/>
+    <path d="M534 243H570"/>
+    <path d="M782 243H818"/>
+  </g>
+  <text x="600" y="82" text-anchor="middle" fill="#0F172A" font-family="Inter, 'Microsoft YaHei', Arial, sans-serif" font-size="34" font-weight="800">从脑子里的想法，到浏览器里的页面</text>
+</svg>

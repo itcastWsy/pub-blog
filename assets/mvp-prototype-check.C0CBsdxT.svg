@@ -1,0 +1,37 @@
+<svg width="1200" height="560" viewBox="0 0 1200 560" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MVP 原型验证问题框架</title>
+  <desc id="desc">用四个问题说明原型在正式开发前要帮助验证什么。</desc>
+  <defs>
+    <linearGradient id="bg" x1="90" y1="60" x2="1110" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF6FF"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect x="40" y="32" width="1120" height="496" rx="32" fill="url(#bg)"/>
+  <circle cx="1050" cy="105" r="58" fill="#DDF7EF"/>
+  <circle cx="155" cy="468" r="70" fill="#FFEFD5"/>
+  <rect x="118" y="98" width="964" height="364" rx="30" fill="white" filter="url(#shadow)"/>
+  <rect x="162" y="142" width="270" height="276" rx="24" fill="#0F172A"/>
+  <text x="206" y="196" fill="#FFFFFF" font-family="Inter, 'Microsoft YaHei', Arial, sans-serif" font-size="34" font-weight="700">先做 MVP</text>
+  <text x="206" y="240" fill="#CBD5E1" font-family="Inter, 'Microsoft YaHei', Arial, sans-serif" font-size="20">不是追求完整，</text>
+  <text x="206" y="272" fill="#CBD5E1" font-family="Inter, 'Microsoft YaHei', Arial, sans-serif" font-size="20">而是尽快验证核心。</text>
+  <path d="M204 332H388" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M204 366H330" stroke="#FBBF24" stroke-width="10" stroke-linecap="round"/>
+  <g font-family="Inter, 'Microsoft YaHei', Arial, sans-serif">
+    <rect x="482" y="144" width="238" height="118" rx="22" fill="#E0F2FE"/>
+    <text x="520" y="192" fill="#075985" font-size="24" font-weight="700">核心页面</text>
+    <text x="520" y="226" fill="#0C4A6E" font-size="18">长什么样？</text>
+    <rect x="746" y="144" width="238" height="118" rx="22" fill="#ECFDF5"/>
+    <text x="784" y="192" fill="#047857" font-size="24" font-weight="700">第一眼</text>
+    <text x="784" y="226" fill="#065F46" font-size="18">能不能看懂？</text>
+    <rect x="482" y="290" width="238" height="118" rx="22" fill="#FFF7ED"/>
+    <text x="520" y="338" fill="#C2410C" font-size="24" font-weight="700">功能入口</text>
+    <text x="520" y="372" fill="#9A3412" font-size="18">是否清晰？</text>
+    <rect x="746" y="290" width="238" height="118" rx="22" fill="#F5F3FF"/>
+    <text x="784" y="338" fill="#6D28D9" font-size="24" font-weight="700">继续投入</text>
+    <text x="784" y="372" fill="#5B21B6" font-size="18">值不值得？</text>
+  </g>
+</svg>
