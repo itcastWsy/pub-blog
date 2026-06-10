@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="360" viewBox="0 0 980 360" role="img" aria-labelledby="title desc">
+  <title id="title">Fable 5 安全分类器工作流程</title>
+  <desc id="desc">展示用户请求进入安全分类器后，普通请求交给 Fable 5，高风险请求回退到 Opus 4.8。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M2,2 L10,6 L2,10 Z" fill="#475569"/>
+    </marker>
+  </defs>
+  <rect width="980" height="360" fill="#f8fafc"/>
+  <rect x="42" y="130" width="170" height="90" rx="18" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="127" y="168" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="22" font-weight="700" fill="#0f172a">用户请求</text>
+  <text x="127" y="196" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15" fill="#475569">问题、代码、文档等</text>
+  <line x1="212" y1="175" x2="300" y2="175" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="300" y="92" width="230" height="166" rx="20" fill="#111827"/>
+  <text x="415" y="134" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="24" font-weight="700" fill="#ffffff">安全分类器</text>
+  <text x="415" y="166" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15" fill="#d1d5db">判断是否涉及高风险领域</text>
+  <text x="415" y="196" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15" fill="#d1d5db">网络安全 / 生物化学 / 蒸馏</text>
+  <text x="415" y="226" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15" fill="#d1d5db">也检测越狱尝试</text>
+  <line x1="530" y1="150" x2="642" y2="96" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+  <line x1="530" y1="205" x2="642" y2="258" stroke="#475569" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="642" y="42" width="270" height="110" rx="18" fill="#ecfdf5" stroke="#86efac" stroke-width="2"/>
+  <text x="777" y="84" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="23" font-weight="700" fill="#14532d">普通请求</text>
+  <text x="777" y="114" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="17" fill="#166534">由 Fable 5 直接回答</text>
+  <rect x="642" y="208" width="270" height="110" rx="18" fill="#fff7ed" stroke="#fdba74" stroke-width="2"/>
+  <text x="777" y="250" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="23" font-weight="700" fill="#9a3412">高风险请求</text>
+  <text x="777" y="280" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="17" fill="#9a3412">回退到 Claude Opus 4.8</text>
+  <text x="490" y="334" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15" fill="#64748b">目标：尽量保留强模型体验，同时降低滥用风险；代价是可能出现误报。</text>
+</svg>

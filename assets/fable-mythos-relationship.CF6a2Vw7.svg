@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">Fable 5 与 Mythos 5 的关系示意</title>
+  <desc id="desc">展示 Fable 5 和 Mythos 5 使用同一个底层模型，但开放范围和安全限制不同。</desc>
+  <rect width="960" height="420" fill="#f7f5ef"/>
+  <rect x="60" y="44" width="840" height="84" rx="16" fill="#111827"/>
+  <text x="480" y="82" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="700" fill="#ffffff">同一个底层模型</text>
+  <text x="480" y="112" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="16" fill="#d1d5db">Claude Fable 5 和 Claude Mythos 5 的核心能力来源相同</text>
+  <path d="M480 128 L300 178" stroke="#6b7280" stroke-width="3" fill="none"/>
+  <path d="M480 128 L660 178" stroke="#6b7280" stroke-width="3" fill="none"/>
+  <rect x="70" y="178" width="390" height="190" rx="18" fill="#ffffff" stroke="#d6d3d1" stroke-width="2"/>
+  <rect x="500" y="178" width="390" height="190" rx="18" fill="#ffffff" stroke="#d6d3d1" stroke-width="2"/>
+  <text x="265" y="222" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="26" font-weight="700" fill="#0f172a">Claude Fable 5</text>
+  <text x="265" y="256" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#334155">面向普通用户开放</text>
+  <text x="265" y="288" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#334155">网络安全 / 生物化学 / 蒸馏请求</text>
+  <text x="265" y="316" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#334155">可能回退到 Opus 4.8</text>
+  <rect x="160" y="334" width="210" height="36" rx="18" fill="#e0f2fe"/>
+  <text x="265" y="358" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#075985">强能力 + 保守安全阀</text>
+  <text x="695" y="222" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="26" font-weight="700" fill="#0f172a">Claude Mythos 5</text>
+  <text x="695" y="256" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#334155">面向可信专业用户</text>
+  <text x="695" y="288" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#334155">部分安全限制移除</text>
+  <text x="695" y="316" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#334155">用于网络防御和科学研究</text>
+  <rect x="590" y="334" width="210" height="36" rx="18" fill="#fef3c7"/>
+  <text x="695" y="358" text-anchor="middle" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15" font-weight="700" fill="#92400e">同源能力 + 受控访问</text>
+</svg>
