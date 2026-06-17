@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0fff4"/>
+      <stop offset="100%" style="stop-color:#e6ffed"/>
+    </linearGradient>
+    <linearGradient id="cliGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#5a67d8"/>
+    </linearGradient>
+    <linearGradient id="codeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#48bb78"/>
+      <stop offset="100%" style="stop-color:#38a169"/>
+    </linearGradient>
+    <linearGradient id="marketGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ed8936"/>
+      <stop offset="100%" style="stop-color:#dd6b20"/>
+    </linearGradient>
+    <linearGradient id="toolGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9f7aea"/>
+      <stop offset="100%" style="stop-color:#805ad5"/>
+    </linearGradient>
+    <filter id="shadow2">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="420" rx="16" fill="url(#bg2)"/>
+
+  <!-- Title -->
+  <text x="450" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#2d3748">鸿蒙 AI 开发工具架构</text>
+
+  <!-- Developer layer -->
+  <rect x="280" y="55" width="340" height="40" rx="20" fill="#2d3748" filter="url(#shadow2)"/>
+  <text x="450" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="white">开发者 (Developer)</text>
+
+  <!-- Arrow down -->
+  <line x1="450" y1="95" x2="450" y2="120" stroke="#a0aec0" stroke-width="2"/>
+  <polygon points="443,118 450,130 457,118" fill="#a0aec0"/>
+
+  <!-- Two main products side by side -->
+  <!-- DevEco Code -->
+  <g filter="url(#shadow2)">
+    <rect x="80" y="135" width="340" height="120" rx="12" fill="white" stroke="url(#codeGrad)" stroke-width="2"/>
+  </g>
+  <rect x="80" y="135" width="340" height="38" rx="12" fill="url(#codeGrad)"/>
+  <rect x="80" y="155" width="340" height="18" fill="url(#codeGrad)"/>
+  <text x="250" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">DevEco Code</text>
+  <text x="250" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a5568">Agentic 智能开发工具</text>
+  <text x="250" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#718096">一站式开箱即用 | 深度集成 CLI 全量能力</text>
+  <text x="250" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#718096">代码编写 / 编译构建 / 设备运行 / UI 检查</text>
+  <text x="250" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#718096">基于 OpenCode 扩展，终端交互</text>
+
+  <!-- DevEco CLI -->
+  <g filter="url(#shadow2)">
+    <rect x="480" y="135" width="340" height="120" rx="12" fill="white" stroke="url(#cliGrad)" stroke-width="2"/>
+  </g>
+  <rect x="480" y="135" width="340" height="38" rx="12" fill="url(#cliGrad)"/>
+  <rect x="480" y="155" width="340" height="18" fill="url(#cliGrad)"/>
+  <text x="650" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">DevEco CLI</text>
+  <text x="650" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#4a5568">鸿蒙开发命令行基座</text>
+  <text x="650" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#718096">标准化接口 | 可被任意 AI Agent 调用</text>
+  <text x="650" y="228" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#718096">ohpm / hvigor / hdc / emulator / hilog</text>
+  <text x="650" y="246" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#718096">技能安装 / 项目脚手架 / MCP 服务</text>
+
+  <!-- Connection arrow between Code and CLI -->
+  <line x1="420" y1="195" x2="480" y2="195" stroke="#a0aec0" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="450" y="188" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#a0aec0">集成</text>
+
+  <!-- AI Agent layer -->
+  <line x1="650" y1="255" x2="650" y2="285" stroke="#a0aec0" stroke-width="2"/>
+  <polygon points="643,283 650,295 657,283" fill="#a0aec0"/>
+
+  <!-- Supported Agents -->
+  <g filter="url(#shadow2)">
+    <rect x="480" y="300" width="340" height="45" rx="10" fill="white" stroke="url(#toolGrad)" stroke-width="2"/>
+  </g>
+  <rect x="480" y="300" width="340" height="22" rx="10" fill="url(#toolGrad)"/>
+  <rect x="480" y="310" width="340" height="12" fill="url(#toolGrad)"/>
+  <text x="650" y="316" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="white">支持的 AI Agent</text>
+  <text x="650" y="338" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#718096">Trae | Cursor | Qoder | Claude Code | Codex | OpenCode | ...</text>
+
+  <!-- GeWu Market -->
+  <g filter="url(#shadow2)">
+    <rect x="80" y="285" width="340" height="70" rx="12" fill="white" stroke="url(#marketGrad)" stroke-width="2"/>
+  </g>
+  <rect x="80" y="285" width="340" height="30" rx="12" fill="url(#marketGrad)"/>
+  <rect x="80" y="300" width="340" height="15" fill="url(#marketGrad)"/>
+  <text x="250" y="306" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">格物市场</text>
+  <text x="250" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#718096">AI 资产市场：Skills / MCP / 知识库</text>
+  <text x="250" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#718096">按标签/分类检索，一键批量下载</text>
+
+  <!-- Arrow from market to products -->
+  <path d="M250 285 L250 260" stroke="#dd6b20" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <polygon points="244,262 250,252 256,262" fill="#dd6b20"/>
+
+  <!-- Bottom label -->
+  <text x="450" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#a0aec0">鸿蒙 AI 开发全链路工具生态</text>
+</svg>
