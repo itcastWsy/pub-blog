@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="'Segoe UI','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="tbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#fff8f0"/><stop offset="100%" stop-color="#fde8d4"/></linearGradient>
+    <linearGradient id="L" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ea580c"/><stop offset="100%" stop-color="#f97316"/></linearGradient>
+    <linearGradient id="T" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#dc2626"/><stop offset="100%" stop-color="#ef4444"/></linearGradient>
+  </defs>
+  <rect width="900" height="460" fill="url(#tbg)"/>
+  <text x="450" y="34" text-anchor="middle" fill="#7c2d12" font-size="20" font-weight="700">采购 Team Skill：五文件结构 + 四角色定义</text>
+  <text x="450" y="55" text-anchor="middle" fill="#9a3412" font-size="12">基于 TeamSkill 标准（kind: team-skill，≥2 角色，每角色 5 段必填）</text>
+
+  <!-- left: file tree (浅色卡片) -->
+  <rect x="40" y="80" width="290" height="350" rx="16" fill="#fff" stroke="#fed7aa" stroke-width="1.5"/>
+  <text x="60" y="104" fill="#dc2626" font-size="13" font-weight="700">procurement-team/</text>
+  <g font-size="11.5" font-family="Consolas,monospace" fill="#7c2d12">
+    <text x="76" y="128">├── SKILL.md</text>
+    <text x="76" y="148" fill="#c2410c">│   └─ frontmatter + roles[]</text>
+    <text x="76" y="170">├── roles/</text>
+    <text x="76" y="190">│   ├── demand-forecaster.md</text>
+    <text x="76" y="210">│   ├── supplier-scorer.md</text>
+    <text x="76" y="230">│   ├── dependency-checker.md</text>
+    <text x="76" y="250">│   └── order-placer.md</text>
+    <text x="76" y="272">├── workflow.md</text>
+    <text x="76" y="288" fill="#c2410c">│   └─ mermaid 流程 + 质量门控</text>
+    <text x="76" y="310">├── bind.md</text>
+    <text x="76" y="326" fill="#c2410c">│   └─ 并发/预算/失败兜底</text>
+    <text x="76" y="348">└── dependencies.yaml</text>
+    <text x="76" y="364" fill="#c2410c">    └─ skills + tools 声明</text>
+  </g>
+  <rect x="55" y="390" width="180" height="28" rx="14" fill="#fef3c7" stroke="#eab308"/>
+  <text x="145" y="409" text-anchor="middle" fill="#92400e" font-size="11" font-weight="600">/teamskills validate ✓</text>
+
+  <!-- right: roles -->
+  <text x="370" y="104" fill="#ea580c" font-size="13" font-weight="700">roles[] 定义（SKILL.md frontmatter）</text>
+  <g font-size="11.5">
+    <rect x="370" y="116" width="490" height="56" rx="14" fill="url(#L)"/>
+    <text x="385" y="138" fill="#fff" font-weight="700">id: coordinator（Leader）</text>
+    <text x="385" y="156" fill="#ffedd5">purpose: 汇总需求、依赖排序、拆单、超预算审批 · tools: [send_message, create_task]</text>
+
+    <rect x="370" y="182" width="490" height="56" rx="14" fill="url(#T)"/>
+    <text x="385" y="204" fill="#fff" font-weight="700">id: demand-forecaster</text>
+    <text x="385" y="222" fill="#fecaca">purpose: 预测各门店 SKU 需求 · skills: [advanced-daily-report]</text>
+
+    <rect x="370" y="248" width="490" height="56" rx="14" fill="url(#T)"/>
+    <text x="385" y="270" fill="#fff" font-weight="700">id: supplier-scorer</text>
+    <text x="385" y="288" fill="#fecaca">purpose: 比价/评分/交期 · skills: [] tools: [mcp_paid_search]</text>
+
+    <rect x="370" y="314" width="490" height="56" rx="14" fill="url(#T)"/>
+    <text x="385" y="336" fill="#fff" font-weight="700">id: dependency-checker</text>
+    <text x="385" y="354" fill="#fecaca">purpose: BOM 替代关系 + 冷链优先级排序 · skills: []</text>
+
+    <rect x="370" y="380" width="490" height="56" rx="14" fill="url(#T)"/>
+    <text x="385" y="402" fill="#fff" font-weight="700">id: order-placer</text>
+    <text x="385" y="420" fill="#fecaca">purpose: 生成采购单→ERP/A2A · tools: [write_file, mcp_exec_command]</text>
+  </g>
+</svg>

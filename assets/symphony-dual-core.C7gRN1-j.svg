@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="'Segoe UI','Microsoft YaHei',sans-serif">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1220"/><stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="tree" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0ea5e9"/><stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="graph" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+    <marker id="sa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="480" fill="url(#sbg)"/>
+  <text x="450" y="36" text-anchor="middle" fill="#f1f5f9" font-size="20" font-weight="700">Symphony 双核架构：检索用树 · 编排用图</text>
+  <text x="450" y="58" text-anchor="middle" fill="#64748b" font-size="12">产线场景下“选哪个 Skill”与“怎么把 Skill 串起来”</text>
+
+  <!-- LEFT: Skill Tree -->
+  <rect x="40" y="90" width="390" height="360" rx="14" fill="#0f172a" stroke="#1e293b"/>
+  <rect x="40" y="90" width="390" height="40" rx="14" fill="url(#tree)"/>
+  <text x="60" y="116" fill="#0b1220" font-size="14" font-weight="700">① 技能检索 · Skill Tree（怎么选）</text>
+  <text x="412" y="116" text-anchor="end" fill="#0b1220" font-size="11">skill_branch_explore / peek</text>
+
+  <!-- root -->
+  <g font-size="12" fill="#e2e8f0">
+    <rect x="60" y="150" width="350" height="34" rx="6" fill="#020617" stroke="#22d3ee"/>
+    <text x="235" y="172" text-anchor="middle" fill="#22d3ee" font-weight="700">root：已安装技能树</text>
+
+    <!-- L1 -->
+    <line x1="235" y1="184" x2="120" y2="205" stroke="#475569" marker-end="url(#sa)"/>
+    <line x1="235" y1="184" x2="235" y2="205" stroke="#475569" marker-end="url(#sa)"/>
+    <line x1="235" y1="184" x2="360" y2="205" stroke="#475569" marker-end="url(#sa)"/>
+
+    <rect x="60" y="205" width="120" height="30" rx="6" fill="#020617" stroke="#22d3ee"/>
+    <text x="120" y="225" text-anchor="middle">设备控制</text>
+    <rect x="175" y="205" width="120" height="30" rx="6" fill="#020617" stroke="#22d3ee"/>
+    <text x="235" y="225" text-anchor="middle">质检视觉</text>
+    <rect x="300" y="205" width="110" height="30" rx="6" fill="#020617" stroke="#22d3ee"/>
+    <text x="355" y="225" text-anchor="middle">物流调度</text>
+
+    <!-- L2 under 设备控制 -->
+    <line x1="120" y1="235" x2="75" y2="258" stroke="#475569" marker-end="url(#sa)"/>
+    <line x1="120" y1="235" x2="165" y2="258" stroke="#475569" marker-end="url(#sa)"/>
+    <rect x="50" y="258" width="80" height="26" rx="5" fill="#020617" stroke="#10b981"/>
+    <text x="90" y="275" text-anchor="middle" fill="#34d399" font-size="11">opcua-ctrl</text>
+    <rect x="140" y="258" width="90" height="26" rx="5" fill="#020617" stroke="#10b981"/>
+    <text x="185" y="275" text-anchor="middle" fill="#34d399" font-size="11">mtconnect</text>
+
+    <!-- leaves -->
+    <line x1="90" y1="284" x2="90" y2="308" stroke="#10b981"/>
+    <rect x="50" y="308" width="80" height="24" rx="5" fill="#10b981"/>
+    <text x="90" y="324" text-anchor="middle" fill="#0b1220" font-size="11">机械臂Skill</text>
+
+    <line x1="185" y1="284" x2="185" y2="308" stroke="#10b981"/>
+    <rect x="140" y="308" width="90" height="24" rx="5" fill="#10b981"/>
+    <text x="185" y="324" text-anchor="middle" fill="#0b1220" font-size="11">CNC-Skill</text>
+
+    <!-- 质检 leaves -->
+    <line x1="235" y1="235" x2="235" y2="258" stroke="#475569"/>
+    <rect x="180" y="258" width="110" height="26" rx="5" fill="#020617" stroke="#10b981"/>
+    <text x="235" y="275" text-anchor="middle" fill="#34d399" font-size="11">vision-defect</text>
+
+    <!-- 物流 leaves -->
+    <line x1="355" y1="235" x2="355" y2="258" stroke="#475569"/>
+    <rect x="300" y="258" width="100" height="26" rx="5" fill="#020617" stroke="#10b981"/>
+    <text x="350" y="275" text-anchor="middle" fill="#34d399" font-size="11">mqtt-agv</text>
+  </g>
+
+  <!-- footer note -->
+  <text x="60" y="400" fill="#64748b" font-size="11">▸ 几十上百个 Skill 时按目录逐层披露，</text>
+  <text x="60" y="418" fill="#64748b" font-size="11">  避免一次性塞满上下文 / 注意力分散。</text>
+  <text x="60" y="438" fill="#64748b" font-size="11">▸ 返回 worker_id 候选，喂给右侧编排。</text>
+
+  <!-- Arrow between two cores -->
+  <path d="M435 270 L 465 270" stroke="#94a3b8" stroke-width="2" marker-end="url(#sa)"/>
+  <text x="450" y="258" text-anchor="middle" fill="#64748b" font-size="10">候选</text>
+
+  <!-- RIGHT: Skill Graph -->
+  <rect x="470" y="90" width="390" height="360" rx="14" fill="#0f172a" stroke="#1e293b"/>
+  <rect x="470" y="90" width="390" height="40" rx="14" fill="url(#graph)"/>
+  <text x="490" y="116" fill="#0b1220" font-size="14" font-weight="700">② 技能编排 · Skill Score（怎么用）</text>
+  <text x="842" y="116" text-anchor="end" fill="#0b1220" font-size="11">symphony_compose_score</text>
+
+  <!-- Graph nodes -->
+  <g font-size="11" fill="#0b1220">
+    <!-- nodes -->
+    <circle cx="540" cy="200" r="26" fill="url(#graph)"/>
+    <text x="540" y="204" text-anchor="middle" font-weight="700">取料</text>
+
+    <circle cx="660" cy="170" r="26" fill="url(#graph)"/>
+    <text x="660" y="174" text-anchor="middle" font-weight="700">加工</text>
+
+    <circle cx="660" cy="260" r="26" fill="url(#graph)"/>
+    <text x="660" y="264" text-anchor="middle" font-weight="700">测量</text>
+
+    <circle cx="790" cy="215" r="26" fill="url(#graph)"/>
+    <text x="790" y="219" text-anchor="middle" font-weight="700">质检</text>
+
+    <circle cx="790" cy="320" r="26" fill="#34d399"/>
+    <text x="790" y="324" text-anchor="middle" font-weight="700">入库</text>
+  </g>
+
+  <!-- edges with confidence -->
+  <g fill="none" stroke="#f97316" stroke-width="2" marker-end="url(#sa)">
+    <path d="M566 200 C 600 185, 620 175, 634 170"/>
+    <path d="M566 210 C 600 240, 620 255, 634 260"/>
+    <path d="M686 175 C 720 185, 750 200, 768 210"/>
+    <path d="M686 255 C 720 250, 750 240, 770 230"/>
+    <path d="M794 241 L 792 294"/>
+  </g>
+  <g font-size="10" fill="#fbbf24">
+    <text x="615" y="178">0.92</text>
+    <text x="615" y="248">0.87</text>
+    <text x="740" y="188">0.95</text>
+    <text x="745" y="252">0.81</text>
+    <text x="800" y="275">0.9</text>
+  </g>
+
+  <!-- legend -->
+  <g font-size="11" fill="#cbd5e1">
+    <text x="490" y="400">▸ 节点=Skill，边=可衔接 can_feed 关系</text>
+    <text x="490" y="418">▸ 数字=置信度，&lt;min_edge_confidence 的边不优先</text>
+    <text x="490" y="436">▸ 生成可确认、可执行的技能链 → 交给 Team</text>
+  </g>
+</svg>
