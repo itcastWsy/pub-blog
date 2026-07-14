@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 560" font-family="-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <linearGradient id="cardA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="cardB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eff6ff"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="560" fill="#f1f5f9"/>
+
+  <!-- 左卡：传统体力活 -->
+  <g>
+    <rect x="60" y="40" width="620" height="480" rx="16" fill="url(#cardA)" stroke="#e2e8f0"/>
+    <rect x="60" y="40" width="620" height="52" rx="16" fill="#fecaca"/>
+    <rect x="60" y="78" width="620" height="14" fill="#fecaca"/>
+    <text x="370" y="74" text-anchor="middle" fill="#b91c1c" font-size="22" font-weight="700">传统字幕校对 · 体力活</text>
+
+    <g font-size="18" fill="#334155">
+      <g transform="translate(100,140)">
+        <circle r="16" fill="#fee2e2"/><text text-anchor="middle" y="6" fill="#dc2626" font-weight="700">1</text>
+        <text x="32" y="6">逐句听音频，手打时间轴</text>
+      </g>
+      <g transform="translate(100,210)">
+        <circle r="16" fill="#fee2e2"/><text text-anchor="middle" y="6" fill="#dc2626" font-weight="700">2</text>
+        <text x="32" y="6">反复拖进度条定位错别字</text>
+      </g>
+      <g transform="translate(100,280)">
+        <circle r="16" fill="#fee2e2"/><text text-anchor="middle" y="6" fill="#dc2626" font-weight="700">3</text>
+        <text x="32" y="6">专有名词、人名地名反复核对</text>
+      </g>
+      <g transform="translate(100,350)">
+        <circle r="16" fill="#fee2e2"/><text text-anchor="middle" y="6" fill="#dc2626" font-weight="700">4</text>
+        <text x="32" y="6">在多个软件间来回切换</text>
+      </g>
+    </g>
+
+    <line x1="100" y1="410" x2="640" y2="410" stroke="#fecaca" stroke-dasharray="4 4"/>
+    <text x="100" y="450" fill="#b91c1c" font-size="20" font-weight="700">⏱ 10 分钟视频 ≈ 1~2 小时</text>
+    <text x="100" y="482" fill="#64748b" font-size="15">繁琐、易错、无人愿意做</text>
+  </g>
+
+  <!-- 右卡：AI 辅助 -->
+  <g>
+    <rect x="760" y="40" width="620" height="480" rx="16" fill="url(#cardB)" stroke="#bfdbfe"/>
+    <rect x="760" y="40" width="620" height="52" rx="16" fill="#3b82f6"/>
+    <rect x="760" y="78" width="620" height="14" fill="#3b82f6"/>
+    <text x="1070" y="74" text-anchor="middle" fill="#fff" font-size="22" font-weight="700">AI 辅助校对 · 审核活</text>
+
+    <g font-size="18" fill="#1e3a8a">
+      <g transform="translate(800,140)">
+        <circle r="16" fill="#bfdbfe"/><text text-anchor="middle" y="6" fill="#1d4ed8" font-weight="700">1</text>
+        <text x="32" y="6">AI 转写自动生成字幕 + 时间轴</text>
+      </g>
+      <g transform="translate(800,210)">
+        <circle r="16" fill="#bfdbfe"/><text text-anchor="middle" y="6" fill="#1d4ed8" font-weight="700">2</text>
+        <text x="32" y="6">字幕跟随播放进度自动定位</text>
+      </g>
+      <g transform="translate(800,280)">
+        <circle r="16" fill="#bfdbfe"/><text text-anchor="middle" y="6" fill="#1d4ed8" font-weight="700">3</text>
+        <text x="32" y="6">AI 一键纠错，只标出可疑项</text>
+      </g>
+      <g transform="translate(800,350)">
+        <circle r="16" fill="#bfdbfe"/><text text-anchor="middle" y="6" fill="#1d4ed8" font-weight="700">4</text>
+        <text x="32" y="6">人只做最终决策，逐条确认</text>
+      </g>
+    </g>
+
+    <line x1="800" y1="410" x2="1340" y2="410" stroke="#bfdbfe" stroke-dasharray="4 4"/>
+    <text x="800" y="450" fill="#1d4ed8" font-size="20" font-weight="700">⏱ 10 分钟视频 ≈ 15 分钟</text>
+    <text x="800" y="482" fill="#475569" font-size="15">让 AI 干体力活，人只做决策</text>
+  </g>
+
+  <!-- 中间箭头 -->
+  <g transform="translate(720,280)">
+    <circle r="34" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
+    <path d="M-12 -8 L4 0 L-12 8" stroke="#3b82f6" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

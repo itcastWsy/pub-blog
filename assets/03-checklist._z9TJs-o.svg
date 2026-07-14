@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 640" font-family="-apple-system, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif">
+  <defs>
+    <linearGradient id="board" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f8fafc"/>
+    </linearGradient>
+    <linearGradient id="checkGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="crossGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f87171"/>
+      <stop offset="1" stop-color="#ef4444"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="640" fill="#0f172a"/>
+  <rect x="80" y="50" width="1280" height="540" rx="20" fill="url(#board)"/>
+
+  <text x="720" y="110" text-anchor="middle" fill="#0f172a" font-size="30" font-weight="800">如何甄别真假 AI 博主？看这三点</text>
+  <line x1="560" y1="135" x2="880" y2="135" stroke="#3b82f6" stroke-width="3"/>
+
+  <!-- 左列：真博主（绿色对勾） -->
+  <g>
+    <rect x="130" y="170" width="560" height="56" rx="10" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <circle cx="166" cy="198" r="16" fill="url(#checkGrad)"/>
+    <path d="M158 199 L164 205 L175 192" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="196" y="204" fill="#065f46" font-size="18" font-weight="600">自己做的视频，连错别字都校对</text>
+
+    <rect x="130" y="244" width="560" height="56" rx="10" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <circle cx="166" cy="272" r="16" fill="url(#checkGrad)"/>
+    <path d="M158 273 L164 279 L175 266" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="196" y="278" fill="#065f46" font-size="18" font-weight="600">配字幕、配图，细节自己打磨</text>
+
+    <rect x="130" y="318" width="560" height="56" rx="10" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <circle cx="166" cy="346" r="16" fill="url(#checkGrad)"/>
+    <path d="M158 347 L164 353 L175 340" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="196" y="352" fill="#065f46" font-size="18" font-weight="600">讲方法讲踩坑，有真实使用痕迹</text>
+
+    <rect x="130" y="392" width="560" height="56" rx="10" fill="#ecfdf5" stroke="#a7f3d0"/>
+    <circle cx="166" cy="420" r="16" fill="url(#checkGrad)"/>
+    <path d="M158 421 L164 427 L175 414" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="196" y="426" fill="#065f46" font-size="18" font-weight="600">敢晒半成品、敢承认不完美</text>
+  </g>
+
+  <!-- 分隔线 -->
+  <line x1="720" y1="170" x2="720" y2="448" stroke="#cbd5e1" stroke-dasharray="4 4"/>
+
+  <!-- 右列：假博主（红色叉） -->
+  <g>
+    <rect x="750" y="170" width="560" height="56" rx="10" fill="#fef2f2" stroke="#fecaca"/>
+    <circle cx="786" cy="198" r="16" fill="url(#crossGrad)"/>
+    <path d="M780 192 L792 204 M792 192 L780 204" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="816" y="204" fill="#991b1b" font-size="18" font-weight="600">视频无字幕、错别字满屏</text>
+
+    <rect x="750" y="244" width="560" height="56" rx="10" fill="#fef2f2" stroke="#fecaca"/>
+    <circle cx="786" cy="272" r="16" fill="url(#crossGrad)"/>
+    <path d="M780 266 L792 278 M792 266 L780 278" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="816" y="278" fill="#991b1b" font-size="18" font-weight="600">只讲概念，从不展示落地</text>
+
+    <rect x="750" y="318" width="560" height="56" rx="10" fill="#fef2f2" stroke="#fecaca"/>
+    <circle cx="786" cy="346" r="16" fill="url(#crossGrad)"/>
+    <path d="M780 340 L792 352 M792 340 L780 352" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="816" y="352" fill="#991b1b" font-size="18" font-weight="600">话术雷同，像同一套模板</text>
+
+    <rect x="750" y="392" width="560" height="56" rx="10" fill="#fef2f2" stroke="#fecaca"/>
+    <circle cx="786" cy="420" r="16" fill="url(#crossGrad)"/>
+    <path d="M780 414 L792 426 M792 414 L780 426" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="816" y="426" fill="#991b1b" font-size="18" font-weight="600">只卖课卖会员，没有作品</text>
+  </g>
+
+  <text x="720" y="530" text-anchor="middle" fill="#64748b" font-size="16">一句话总结：看「成品细节」，别看「口号概念」</text>
+</svg>
